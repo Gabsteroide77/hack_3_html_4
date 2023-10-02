@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: Ruda-VariableFont_wght ;
+    src: url(fonts/Ruda-VariableFont_wght.ttf);
+}    
+@font-face {
+    font-family: Catamaran-VariableFont_wght ;
+    src: url(fonts/Catamaran-VariableFont_wght.ttf);
+    }
+@font-face {
+    font-family: OpenSans-ExtraBold ;
+    src: url(fonts/OpenSans-ExtraBold.ttf);
+
+}
+header{
+    border: 1px solid black;
+    height: 2px;
+    max-width: 65px;
+    padding: 1 ;
+    margin: 50px auto 0 auto;
+    background-color: black;
+    border-radius: 100px;
+}
+
+h4{
+    font-family: Ruda-VariableFont_wght;
+    font-weight: calc(1000);
+    font-size: 18px;
+    margin: 30px 45% 0 0 ;
+    position: relative;
+    float: right;
+}
+
+h1{
+   
+    font-family: Ruda-VariableFont_wght;
+    font-weight:calc(1000);
+    float: right;
+    margin: 0 42% 10px 0;
+    position: relative;
+    font-size: 75px;
+    color: #B88940;
+    clear: both;
+}
+
+h2{
+font-family: Ruda-VariableFont_wght;
+font-weight: calc(1000);
+float: right;
+position: relative;
+font-size: 40px ;
+margin: -10px 44% 0 0 ;
+clear: both;
+}
+
+h5{
+font-family: Catamaran-VariableFont_wght ;
+font-weight:800;
+font-size: 17px;
+clear: both;
+float: right;
+margin: 10px 42% 150px 0;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    margin: 300px 0 0 20% ;
+    clear: both;
+}
+
+.texto1{
+    position: absolute;
+    margin: 302px 50% 0 12%;
+    font-family: Catamaran-VariableFont_wght ;
+    font-size: 20px;
+    font-weight: 800 ;
+}
+
+.texto2{
+position: absolute;
+    margin: 302px 0 0 44%;
+    font-family: Catamaran-VariableFont_wght ;
+    font-size: 20px;
+    font-weight: 800 ;
+}
+
+.texto3{
+    position: absolute;
+    margin: 302px 0 0 76%;
+    font-family: Catamaran-VariableFont_wght ;
+    font-size: 20px;
+    font-weight: 800 ;
+}
+
+section{
+    height: 25px;
+    background-color: #FFBD59;
+    margin: 20px 15px 0 15px ;
+    clear: both;
+}
+
+h6{
+    font-family: OpenSans-ExtraBold;
+    clear: both;
+    color: #B88940;
+    font-size: 40px ;
+    margin: 160px 0 -10px 38% ;
+}
